@@ -6,9 +6,9 @@ Feature: Simple calculator
   Scenario: 1. Add two integers
     Given the numbers 5 and 10
     When I add the two integers
-    Then the result should be 15
+    Then the sum result should be 15
 
-#  Scenario: 2. Subtract two integers
-#    Given the numbers 5 and 10
-#    When I subtract the two integers
-#    Then the result should be -5
+  Scenario: 2. Subtract two integers
+    Given the numbers 5 and 10
+    When I subtract the two integers
+    Then the subtract result should be -5
